@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,5 +19,6 @@ class MainActivity : AppCompatActivity() {
             //intent to start NewActivity
             startActivity(Intent(this@MainActivity, LoginPage::class.java))
         }
+        Toast.makeText(this,"Awesome",Toast.LENGTH_SHORT).show()
     }
 }

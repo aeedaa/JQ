@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/welcome_background"
     tools:context=".MainActivity">
 
 
@@ -40,7 +39,7 @@
 
         android:layout_marginStart="60dp"
         android:layout_marginBottom="106dp"
-        android:background="@drawable/round_btn"
+        android:backgroundTint="@color/teal_700"
         android:text="Get Started"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
